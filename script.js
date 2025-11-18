@@ -109,7 +109,7 @@ const generateImages = async (
     }
   });
   await Promise.allSettled(imagePromises);
-  generateBtn.removeAttributeAttribute("disabled");
+  generateBtn.removeAttribute("disabled");
 };
 
 const creatImageCards = (selectedMode, imageCount, aspectRatio, promptText) => {
